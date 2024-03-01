@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 600px;
+    height: 800px;
+    background-image:url('./left-bg_11zon.jpg');
+    content:'';
+    background-position:center, center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    color:aliceblue;
+    font-size: 16px;
+    
+    
+}
+.img-con{
+    width: 290px;
+    text-transform:lowercase ;
+    
+}
+.yozuv{
+    text-transform:uppercase;
+
+}
+
+
+
+.button{
+   width: 150px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(30, 144, 255, 1);
+   margin-top: 50px;
+   border-radius:4px;
+   color:rgba(255, 255, 255, 1);
+   /* display: inline-block;
+    background-image:url('./Vector.jpg');
+    background-position:center,center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    content: ''; */
+}
+.button:hover{
+  background-color:rgba(30, 144, 255, 0.8);
+}
+.button:active{
+    background-color:rgba(30, 144, 255, 0.6);
+}
+.yul{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    background-image:url('./Vector.jpg');
+    background-position:center,center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    content: '';
+    margin-right: 10px;
+}
+.yoz{
+    text-transform: uppercase;
+}
+
+/* img2 */
+.container-img2{
+    width: 600px;
+    display: flex;
+    /* align-items:center; */
+    justify-content: center;
+    color:rgba(153, 153, 153, 1);
+}
+.img2{
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    
+}
+h2{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.center{
+    margin-top: 20px;
+}
+.png{
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 90px;
+}
+.hr{
+    border: 1px solid rgba(153, 153, 153, 1);
+    width: 500px;
+}
+ul, li{
+
+ list-style: none;
+ color:black;
+}
+ul, li, a{
+    text-decoration: none;
+    color:rgba(34, 34, 34, 1);
+}
+ul .png:nth-last-child(2){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yakunash{
+    margin-top: 20px;
+    
+    
+}
+.tugma{
+    width: 500px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color:rgba(30, 144, 255, 1);
+    color:rgba(255, 255, 255, 1);
+    /* text-transform: capitalize; */
+    line-height: 16px;
+    font-size: 14px;
+}
+.tugma:hover{
+    background-color:rgba(30, 144, 255, 0.8);
+}
+.tugma:active{
+    background-color:rgba(30, 144, 255, 0.6);
+}
+/* .soat{
+    width: 16px;
+    height: 16px;
+    background-image:url('./icon-clock\ 1.svg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    content:'';
+} */
+.clock{
+    width: 90px;
+    height: 16px;
+
+}
+.text{
+    width: 330px;
+   display: flex;
+   justify-content: space-around;
+}
+.text1{
+    width: 310px;
+
+}
+.text1 li a{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.text1 li a:hover{
+    color:rgba(30, 144, 255, 1);
+}
+.text1 li a:active{
+    color:rgba(30, 144, 255, 0.6);
+}
+.hap-yozuv{
+    display: flex;
+    color:rgba(136, 136, 136, 1);
+    align-items:center;
+    
+}
+.clock{
+    display: flex;
+   
+}
+.clock{
+    display: flex;
+    width: 90px;
+    height: 16px;
+    margin: 0;
+    margin-right: 20px;
+   
+}
+.clock::before{
+    /* display: inline-block; */
+    width: 16px;
+    height: 16px;
+    background-image:url('./icon-clock\ 1.svg');
+    content:'';
+    background-size:contain;
+    background-position:center,center;
+    color:rgba(136, 136, 136, 1);
+    background-repeat:no-repeat;
+}
+.korish{
+    display: flex;
+    align-items:center;
+}
+.korish::before{
+    /* display: inline-block; */
+    width: 16px;
+    height: 16px;
+    background-image:url('./visibility_black_24dp\ 1.jpg');
+    content:'';
+    background-size:contain;
+    background-position:center,center;
+    color:rgba(136, 136, 136, 1);
+}
+
+
